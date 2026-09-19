@@ -1,0 +1,23 @@
+{
+  "score_mode": "vln_segment_transition",
+  "score_weights": {
+    "confidence": 0.333334,
+    "instruction": 0.333333,
+    "transition": 0.333333
+  },
+  "confidence": {
+    "merge": "min"
+  },
+  "instruction": {
+    "centering": "both"
+  },
+  "normalization": {
+    "candidate_terms": "zscore"
+  },
+  "transition": {
+    "recent_window_size": 400,
+    "descriptor_pooling": "uniform",
+    "novelty_reduce": "max",
+    "novelty_ref": "cache"
+  }
+}
